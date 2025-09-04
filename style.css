@@ -1,0 +1,187 @@
+       body{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial;
+
+       }
+       .log-in {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:600px;
+        height:650px;
+        background-color:black;
+        color:white;
+        position:relative;
+        top:150px;
+        border:none;
+        border-radius:15px;
+
+       }
+
+       .to-close{
+        position:absolute;
+        left:20px;
+        top:20px;
+        cursor:pointer;
+
+       }
+
+       .twitter{
+        margin-bottom:20px;
+        position:absolute;
+        left:175px;
+        top:70px;
+
+       }
+        .button-boxes{
+                position:relative;
+                top:80px;
+        }
+
+       .button-1{
+        width:100% ;
+        padding:10px 40px 10px 40px;
+        border-radius:200px;
+        margin-bottom: 25px;
+        margin-top:80px;
+        cursor:pointer;
+        flex:1;
+       }
+       .button-1:hover{
+        box-shadow:2px 2px 8px white;
+        background-color:black;
+        color:white;
+        border:inset;
+        border-width:0.005px;
+       }
+       .button-1:active{
+        box-shadow:1px 1px 5px white;
+       }
+       .div-button-1{
+        flex:1;
+       }
+       .button-2{
+        width:100% ;
+        padding:10px 40px 10px 40px;
+        border-radius:200px;
+        margin-bottom: 60px;
+        transition: opacity 0.1s, background-color 0.15s, color 0.15s, box-shadow 0.15s,padding-top 0.15s, padding-right 0.15 , padding-left 0.15s, padding-bottom 0.15s ;
+        cursor:pointer;
+       }
+       .button-2:hover{
+        box-shadow:2px 2px 8px white;
+        background-color:black;
+        color:white;
+        border:inset;
+        border-width:0.005px;
+       }
+       .button-2:active{
+        box-shadow:1px 1px 5px white;
+
+       }
+       .button-3{
+        width:100% ;
+        padding:10px 40px 10px 40px;
+        border-radius:200px;
+        margin-bottom: 25px;
+        transition: opacity 0.1s, background-color 0.15s, color 0.15s, box-shadow 0.15s,padding-top 0.15s, padding-right 0.15 , padding-left 0.15s, padding-bottom 0.15s ;
+        cursor:pointer;
+
+       }
+       .button-3:hover{
+        box-shadow:2px 2px 8px white;
+        background-color:black;
+        color:white;
+        border:inset;
+        border-width:0.005px;
+       }
+       .button-3:active{
+        box-shadow:1px 1px 5px white;
+       }
+       .button-4{
+        width:100% ;
+        padding:10px 40px 10px 40px;
+        border-radius:200px;
+        border:solid;
+        border-width:0.005px;
+        border-color:black;
+        margin-bottom: 50px;
+        box-shadow: 1px white;
+
+        transition: opacity 0.1s, background-color 0.15s, color 0.15s, box-shadow 0.15s,padding-top 0.15s, padding-right 0.15 , padding-left 0.15s, padding-bottom 0.15s ;
+        cursor:pointer;
+                
+        }
+
+        .button-4:hover{
+                box-shadow:2px 2px 8px white;
+                padding:10px 40.5px 10px 40.5px;
+                background-color:black;
+                color:white;
+                border:inset;
+                border-width:0.005px;
+                
+        
+                }
+        .button-4:active{
+                box-shadow:1px 1px 5px white;
+                padding:9.9px 39.5px 9.9px 39.5px;                
+        } 
+       
+       .email{
+        
+        padding:10px 40px 10px 40px;
+        border-radius:200px;
+        margin-bottom: 25px;
+        
+
+    
+       }
+       .email::placeholder{
+        text-align: center;
+        font-family:arial;
+        
+
+
+       }
+        .recovery{
+                display:flex;
+                padding:0px;
+                margin:0px;
+                position:relative;
+
+        }       
+
+       .sign-up{
+        text-decoration:none;
+
+
+       }
+       .div-sign-up{
+        flex:1;
+        margin:0px;
+        position:absolute;
+        bottom:1px;
+        right:20px;
+
+       }
+       .div-p-2{
+        flex:1;
+
+       }
+       .p-2{
+        margin:0px;
+       }
+
+       .div-p-1{
+        width:100%;
+         flex:1;
+         position:absolute;
+         bottom:240px;
+         left:120px;
+         color:white;
+        
+       
+
+       }
